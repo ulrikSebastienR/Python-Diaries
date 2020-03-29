@@ -1,0 +1,65 @@
+tab for autocompletion always
+
+GIT BASH
+
+cd ~
+cd 
+cd ..
+mkdir
+ls 
+ls -l
+ls -a for hidden files display as well
+pwd
+tab
+F1
+git --help
+find . -name *.txt 
+find . -name filename.txt
+rm -r .git delete file or folder
+touch to create files
+mv for rename/ move
+mv /tmp/foo /tmp/bar
+
+
+git clone
+
+Create Repository via git bash
+cd to change present working directory to the folder where your files are stored.
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/ulrikSebastienR/Python-Commands-tried-today.git
+git remote -v
+git push origin master
+
+
+status check
+git status
+
+
+Updating a file via git bash
+git commit --all OR git commit -a 
+git push origin master
+
+
+Closing git bash vim editor
+Press i to enter inline insert mode. Type the description at the very top, press esc to exit insert mode, type :x! (now the curser is at the bottom) and hit enter to save and exit. Source: Google vim editor in git bash.
+
+
+
+restoring a file to discard changes in working directory
+git restore <file>
+
+
+creating branches via git bash
+git pull
+create branch on ur PC and switch in this branch
+git checkout -b new_branch_name
+git push origin new_branch_name
+
+check branches
+git branch -a
+
+add a file to branch only
+git add file-name
+git push origin new_branch_name
