@@ -11,6 +11,7 @@ git remote -v
 git push origin master
 
 remove a file first in your local folder and do a refresh by
+git add .
 git commit -m "your message"
 git push origin master
 
