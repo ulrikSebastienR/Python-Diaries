@@ -2,7 +2,7 @@ git clone
 
 
 Create Repository via git bash
-cd to change present working directory to the folder where your files are stored.
+cd to change present working directory to the folder where your files are stored. This process is similar to a refresh.
 git init
 git add .
 git commit -m "first commit"
@@ -10,6 +10,9 @@ git remote add origin https://github.com/ulrikSebastienR/Python-Commands-tried-t
 git remote -v
 git push origin master
 
+remove a file first in your local folder and do a refresh by
+git commit -m "your message"
+git push origin master
 
 status check
 git status
