@@ -19,6 +19,7 @@ rm -r .git delete file or folder
 touch to create files
 mv for rename/ move
 mv /tmp/foo /tmp/bar
+winpty python or python -i to start python 
 
 
 git clone
