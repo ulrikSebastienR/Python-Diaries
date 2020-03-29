@@ -15,7 +15,7 @@ F1
 git --help
 find . -name *.txt 
 find . -name filename.txt
-rm -r .git
+rm -r .git delete file or folder
 touch to create files
 mv for rename/ move
 mv /tmp/foo /tmp/bar
@@ -41,8 +41,15 @@ Updating a file via git bash
 git commit --all OR git commit -a 
 git push origin master
 
+
+Closing git bash vim editor
+Press i to enter inline insert mode. Type the description at the very top, press esc to exit insert mode, type :x! (now the curser is at the bottom) and hit enter to save and exit. Source: Google vim editor in git bash.
+
+
+
 restoring a file to discard changes in working directory
 git restore <file>
+
 
 creating branches via git bash
 git pull
