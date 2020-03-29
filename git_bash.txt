@@ -16,7 +16,9 @@ git --help
 find . -name *.txt 
 find . -name filename.txt
 rm -r .git
-
+touch to create files
+mv for rename/ move
+mv /tmp/foo /tmp/bar
 
 
 git clone
