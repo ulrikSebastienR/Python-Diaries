@@ -14,6 +14,12 @@ remove a file first in your local folder and do a refresh by
 git add .
 git commit -m "your message"
 git push origin master
+or refresh and addition together by
+git commit -all OR git commit -a 
+git push origin master
+but here vim will ask you to press i, esc, :x! 
+
+
 
 status check
 git status
