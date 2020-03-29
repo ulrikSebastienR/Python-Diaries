@@ -1,0 +1,10 @@
+PATH SETTING IN WINDOWS 7
+
+
+In windows 7 Only java or notepad++ one of these can be set to path. This is the path for java.
+Variable :Path
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd 
+path to notepad++ is C:\Program Files\Notepad++
+To use both of these together Separate the paths to Ruby and Java with your system's path separator character. In case of Windows 7, it's
+;
+https://stackoverflow.com/questions/10801662/fixing-path-in-environment-variables-in-windows-7-for-multiple-applications
