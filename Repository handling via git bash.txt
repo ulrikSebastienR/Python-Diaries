@@ -26,6 +26,8 @@ N.B. : If you don't delete the file from your local folder and delete only from 
 
 Rename a file
 git mv old_filename new_filename
+git status
+git commit -m "Rename file"
 
 status check
 git status
