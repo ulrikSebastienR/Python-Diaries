@@ -1,4 +1,0 @@
-Python Idle
-cmd and git bash commands are quite similar
-if using cmd reach to the folder where your code is and type file name to open it
-
