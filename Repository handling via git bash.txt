@@ -24,6 +24,9 @@ git rm file1.txt
 git commit -m "remove file1.txt" 
 N.B. : If you don't delete the file from your local folder and delete only from git web repository, you will not be able to further update your repo from bash.
 
+Rename a file
+git mv old_filename new_filename
+
 status check
 git status
 
