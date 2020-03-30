@@ -19,7 +19,9 @@ git commit -all OR git commit -a
 git push origin master
 but here vim will ask you to press i, esc, :x! 
 
-
+Remove a file from git and your local folder
+git rm file1.txt
+git commit -m "remove file1.txt"
 
 status check
 git status
