@@ -1,7 +1,7 @@
 git clone
 
 
-Create Repository via git bash
+Create Repository via git bash/adding new file from your local folder
 cd to change present working directory to the folder where your files are stored. This process is similar to a refresh.
 git init
 git add .
@@ -21,7 +21,8 @@ but here vim will ask you to press i, esc, :x!
 
 Remove a file from git and your local folder
 git rm file1.txt
-git commit -m "remove file1.txt"
+git commit -m "remove file1.txt" 
+N.B. : If you don't delete the file from your local folder and delete only from git web repository, you will not be able to further update your repo from bash.
 
 status check
 git status
