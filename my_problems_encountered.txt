@@ -1,3 +1,7 @@
+%load filename.py to load python file to jupyter notebook
+
+
+
 PATH SETTING IN WINDOWS 7
 
 
