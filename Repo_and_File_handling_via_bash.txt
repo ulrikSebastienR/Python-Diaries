@@ -1,6 +1,13 @@
 Git bash and linux commands are similar at the time of tried-today.
 
+Create a file
+	touch filename
+	vi filename
+	notepad filename
+
 git clone
+
+
 
 
 Create Repository via git bash/adding new file from your local folder
