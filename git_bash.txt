@@ -5,7 +5,6 @@ GIT BASH
 cd ~
 cd 
 cd ..
-mkdir
 ls 
 ls -l
 ls -a for hidden files display as well
@@ -20,7 +19,10 @@ touch to create files
 mv for rename/ move
 mv /tmp/foo /tmp/bar
 winpty python or python -i to start python 
-
+rm -r to remove file
+rm -rf to remove folder
+mkdir "folder name" to create a folder name with spaces
+mkdir folder name creates two folders with folder & name
 
 git clone
 
