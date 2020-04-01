@@ -1,0 +1,14 @@
+%load filename.py to load python file to jupyter notebook
+
+Opening python script from bash
+	winty python or python -i filename.py 
+	but first reach to the local directory
+	
+Opening python script from git cmd or cmd or conda cmd
+	python filename.py 
+	but first reach to the local directory
+they will all run file as per the libraries installed in them. 
+
+
+	
+setting run path in notepad++
