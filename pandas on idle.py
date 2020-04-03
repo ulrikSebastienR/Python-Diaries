@@ -17,6 +17,8 @@ merge = pd.merge(df1,df2,on ="Date")
 print(merge)
 
 merge.to_excel("output.xlsx")
+output_sheet = 'output.slsx'
+dfoutput = pd.read_excel(output_sheet)
 
 
 
