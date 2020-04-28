@@ -12,5 +12,11 @@ print(nse.get_index_list(), 'r', sep ='\n')
 
 print(nse.get_index_quote("nifty pharma"))
 
+p = nse.get_index_quote("nifty pharma")
+print("p=" ,p)
+print(type(p))
+
+
+
 
 
